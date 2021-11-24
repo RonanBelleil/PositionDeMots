@@ -26,6 +26,7 @@ args = parser.parse_args()
 
 dt = pd.read_table(args.input, header=None, sep=',', encoding="utf-8")
 ft = fasttext.load_model('cc.fr.300.bin')
+#ft = WordEmbeddings('fr')
 X = pd.DataFrame([sentenseVector(ft, str(msg).replace('\n', ' ')) for msg in dt.iloc[:,0].tolist()])
 y = dt.iloc[:,1]
 clf = svm.SVC(kernel='linear', C=1, random_state=42)
