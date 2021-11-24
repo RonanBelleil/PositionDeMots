@@ -56,11 +56,13 @@ if args.verbose:
 transformed = []
 for sentense in parsed:
 	outputsentense = ""
-	rootChunk = [root for root in sentense if root.dep_ == 'ROOT'][0]
+	rootChunks = [root for root in sentense if root.dep_ == 'ROOT']
 	if args.depth != 0:
-		outputsentense = parseTreeInv(rootChunk, args.depth)[:-1]
+		for rootChunk in rootChunks:
+			outputsentense += parseTreeInv(rootChunk, args.depth)
 	else:
-		outputsentense = parseTree(rootChunk)[:-1]
+		for rootChunk in rootChunks:
+			outputsentense += parseTree(rootChunk)
 	transformed += [outputsentense]
 
 if args.verbose:
