@@ -128,7 +128,7 @@
  "{'POS1.npy': 0.2, 'POS2.npy': 0.2, 'POS3.npy': 0.2, 'POS4.npy': 0.2, 'POS5.npy': 0.2}": 0.8590571589983425}
 
 --------------------------------------------------------------------------------
----- INVERSION SYNTAGMIQUE - TOUTE LES COMBINAISONS - RÉPARTITION EQUITABLE ----
+--- INVERSION SYNTAGMATIQUE - TOUTE LES COMBINAISONS - RÉPARTITION EQUITABLE ---
 --------------------------------------------------------------------------------
 {"{'LRInv1.npy': 1.0}": 0.8618716441425647,
  "{'LRInv2.npy': 1.0}": 0.845405935963117,
@@ -165,6 +165,148 @@
  "{'LRInv1.npy': 1.0}": 0.8618716441425647}
 
 --------------------------------------------------------------------------------
+---------------- TOUTE LES COMBINAISONS - RÉPARTITION EQUITABLE ----------------
+--------------------------------------------------------------------------------
+{"{'messages_equilibre_ok.npy': 1.0}": 0.8692509234307005,
+ "{'alea1.npy': 1.0}": 0.8412958651121036,
+ "{'POS1.npy': 1.0}": 0.8511136963179033,
+ "{'LRInv1.npy': 1.0}": 0.8618716441425647,
+ "{'LRInv2.npy': 1.0}": 0.845405935963117,
+ "{'LRInvTotal.npy': 1.0}": 0.8423471257324868,
+ "{'messages_equilibre_ok.npy': 0.5, 'alea1.npy': 0.5}": 0.8622280100582425,
+ "{'messages_equilibre_ok.npy': 0.5, 'POS1.npy': 0.5}": 0.8673113036372152,
+ "{'messages_equilibre_ok.npy': 0.5, 'LRInv1.npy': 0.5}": 0.8752999646067596,
+ "{'messages_equilibre_ok.npy': 0.5, 'LRInv2.npy': 0.5}": 0.8722720528174056,
+ "{'messages_equilibre_ok.npy': 0.5, 'LRInvTotal.npy': 0.5}": 0.8696675341042228,
+ "{'alea1.npy': 0.5, 'POS1.npy': 0.5}": 0.854306163366417,
+ "{'alea1.npy': 0.5, 'LRInv1.npy': 0.5}": 0.8591390588781813,
+ "{'alea1.npy': 0.5, 'LRInv2.npy': 0.5}": 0.850258035706592,
+ "{'alea1.npy': 0.5, 'LRInvTotal.npy': 0.5}": 0.8512875441890155,
+ "{'POS1.npy': 0.5, 'LRInv1.npy': 0.5}": 0.8608590980750934,
+ "{'POS1.npy': 0.5, 'LRInv2.npy': 0.5}": 0.8565673584962312,
+ "{'POS1.npy': 0.5, 'LRInvTotal.npy': 0.5}": 0.8531742590350312,
+ "{'LRInv1.npy': 0.5, 'LRInv2.npy': 0.5}": 0.8556988463535168,
+ "{'LRInv1.npy': 0.5, 'LRInvTotal.npy': 0.5}": 0.8565201273375378,
+ "{'LRInv2.npy': 0.5, 'LRInvTotal.npy': 0.5}": 0.846135683409921,
+ "{'messages_equilibre_ok.npy': 0.333, 'alea1.npy': 0.333, 'POS1.npy': 0.333}": 0.8646007581313304,
+ "{'messages_equilibre_ok.npy': 0.333, 'alea1.npy': 0.333, 'LRInv1.npy': 0.333}": 0.8693478385286454,
+ "{'messages_equilibre_ok.npy': 0.333, 'alea1.npy': 0.333, 'LRInv2.npy': 0.333}": 0.8650919330304901,
+ "{'messages_equilibre_ok.npy': 0.333, 'alea1.npy': 0.333, 'LRInvTotal.npy': 0.333}": 0.8655461666116082,
+ "{'messages_equilibre_ok.npy': 0.333, 'POS1.npy': 0.333, 'LRInv1.npy': 0.333}": 0.868547635370746,
+ "{'messages_equilibre_ok.npy': 0.333, 'POS1.npy': 0.333, 'LRInv2.npy': 0.333}": 0.8643550145001344,
+ "{'messages_equilibre_ok.npy': 0.333, 'POS1.npy': 0.333, 'LRInvTotal.npy': 0.333}": 0.8632753759534179,
+ "{'messages_equilibre_ok.npy': 0.333, 'LRInv1.npy': 0.333, 'LRInv2.npy': 0.333}": 0.8717550033329559,
+ "{'messages_equilibre_ok.npy': 0.333, 'LRInv1.npy': 0.333, 'LRInvTotal.npy': 0.333}": 0.8724138907585326,
+ "{'messages_equilibre_ok.npy': 0.333, 'LRInv2.npy': 0.333, 'LRInvTotal.npy': 0.333}": 0.8639524294753572,
+ "{'alea1.npy': 0.333, 'POS1.npy': 0.333, 'LRInv1.npy': 0.333}": 0.8618291165913723,
+ "{'alea1.npy': 0.333, 'POS1.npy': 0.333, 'LRInv2.npy': 0.333}": 0.8553621067835451,
+ "{'alea1.npy': 0.333, 'POS1.npy': 0.333, 'LRInvTotal.npy': 0.333}": 0.8566506001514295,
+ "{'alea1.npy': 0.333, 'LRInv1.npy': 0.333, 'LRInv2.npy': 0.333}": 0.8557364459829543,
+ "{'alea1.npy': 0.333, 'LRInv1.npy': 0.333, 'LRInvTotal.npy': 0.333}": 0.8551264409717356,
+ "{'alea1.npy': 0.333, 'LRInv2.npy': 0.333, 'LRInvTotal.npy': 0.333}": 0.8526089003973066,
+ "{'POS1.npy': 0.333, 'LRInv1.npy': 0.333, 'LRInv2.npy': 0.333}": 0.8601372686277081,
+ "{'POS1.npy': 0.333, 'LRInv1.npy': 0.333, 'LRInvTotal.npy': 0.333}": 0.8574737724608997,
+ "{'POS1.npy': 0.333, 'LRInv2.npy': 0.333, 'LRInvTotal.npy': 0.333}": 0.8527818354998047,
+ "{'LRInv1.npy': 0.333, 'LRInv2.npy': 0.333, 'LRInvTotal.npy': 0.333}": 0.8500340216335894,
+ "{'messages_equilibre_ok.npy': 0.25, 'alea1.npy': 0.25, 'POS1.npy': 0.25, 'LRInv1.npy': 0.25}": 0.8646470582702193,
+ "{'messages_equilibre_ok.npy': 0.25, 'alea1.npy': 0.25, 'POS1.npy': 0.25, 'LRInv2.npy': 0.25}": 0.8628250593921626,
+ "{'messages_equilibre_ok.npy': 0.25, 'alea1.npy': 0.25, 'POS1.npy': 0.25, 'LRInvTotal.npy': 0.25}": 0.8626785238548882,
+ "{'messages_equilibre_ok.npy': 0.25, 'alea1.npy': 0.25, 'LRInv1.npy': 0.25, 'LRInv2.npy': 0.25}": 0.8667300635827777,
+ "{'messages_equilibre_ok.npy': 0.25, 'alea1.npy': 0.25, 'LRInv1.npy': 0.25, 'LRInvTotal.npy': 0.25}": 0.8668537026885268,
+ "{'messages_equilibre_ok.npy': 0.25, 'alea1.npy': 0.25, 'LRInv2.npy': 0.25, 'LRInvTotal.npy': 0.25}": 0.8628769031711133,
+ "{'messages_equilibre_ok.npy': 0.25, 'POS1.npy': 0.25, 'LRInv1.npy': 0.25, 'LRInv2.npy': 0.25}": 0.865626875942675,
+ "{'messages_equilibre_ok.npy': 0.25, 'POS1.npy': 0.25, 'LRInv1.npy': 0.25, 'LRInvTotal.npy': 0.25}": 0.8651673854083184,
+ "{'messages_equilibre_ok.npy': 0.25, 'POS1.npy': 0.25, 'LRInv2.npy': 0.25, 'LRInvTotal.npy': 0.25}": 0.861496060318251,
+ "{'messages_equilibre_ok.npy': 0.25, 'LRInv1.npy': 0.25, 'LRInv2.npy': 0.25, 'LRInvTotal.npy': 0.25}": 0.8658261001740035,
+ "{'alea1.npy': 0.25, 'POS1.npy': 0.25, 'LRInv1.npy': 0.25, 'LRInv2.npy': 0.25}": 0.8607419010655993,
+ "{'alea1.npy': 0.25, 'POS1.npy': 0.25, 'LRInv1.npy': 0.25, 'LRInvTotal.npy': 0.25}": 0.8615344210972651,
+ "{'alea1.npy': 0.25, 'POS1.npy': 0.25, 'LRInv2.npy': 0.25, 'LRInvTotal.npy': 0.25}": 0.856190520213568,
+ "{'alea1.npy': 0.25, 'LRInv1.npy': 0.25, 'LRInv2.npy': 0.25, 'LRInvTotal.npy': 0.25}": 0.8544331881195101,
+ "{'POS1.npy': 0.25, 'LRInv1.npy': 0.25, 'LRInv2.npy': 0.25, 'LRInvTotal.npy': 0.25}": 0.8551472118781197,
+ "{'messages_equilibre_ok.npy': 0.2, 'alea1.npy': 0.2, 'POS1.npy': 0.2, 'LRInv1.npy': 0.2, 'LRInv2.npy': 0.2}": 0.8669287007983705,
+ "{'messages_equilibre_ok.npy': 0.2, 'alea1.npy': 0.2, 'POS1.npy': 0.2, 'LRInv1.npy': 0.2, 'LRInvTotal.npy': 0.2}": 0.8662816133748971,
+ "{'messages_equilibre_ok.npy': 0.2, 'alea1.npy': 0.2, 'POS1.npy': 0.2, 'LRInv2.npy': 0.2, 'LRInvTotal.npy': 0.2}": 0.8618656949523714,
+ "{'messages_equilibre_ok.npy': 0.2, 'alea1.npy': 0.2, 'LRInv1.npy': 0.2, 'LRInv2.npy': 0.2, 'LRInvTotal.npy': 0.2}": 0.8662050333918536,
+ "{'messages_equilibre_ok.npy': 0.2, 'POS1.npy': 0.2, 'LRInv1.npy': 0.2, 'LRInv2.npy': 0.2, 'LRInvTotal.npy': 0.2}": 0.8645164559145913,
+ "{'alea1.npy': 0.2, 'POS1.npy': 0.2, 'LRInv1.npy': 0.2, 'LRInv2.npy': 0.2, 'LRInvTotal.npy': 0.2}": 0.859592102833397,
+ "{'messages_equilibre_ok.npy': 0.166, 'alea1.npy': 0.166, 'POS1.npy': 0.166, 'LRInv1.npy': 0.166, 'LRInv2.npy': 0.166, 'LRInvTotal.npy': 0.166}": 0.8646705774468778}
+
+--------------------------------------------------------------------------------
+-------------------- COMBINAISON AUTRE - CONCATÉNATION EMBD --------------------
+--------------------------------------------------------------------------------
+{"{'messages_equilibre_ok.npy': 1.0,
+   'alea1.npy': 1.0, 'alea2.npy': 1.0, 'alea3.npy': 1.0, 'alea4.npy': 1.0, 'alea5.npy': 1.0,
+   'POS1.npy': 1.0, 'POS2.npy': 1.0, 'POS3.npy': 1.0, 'POS4.npy': 1.0, 'POS5.npy': 1.0,
+   'LRInv1.npy': 1.0, 'LRInv2.npy': 1.0, 'LRInv3.npy': 1.0, 'LRInvTotal.npy': 1.0}": 0.8599283020451981}
+
+{"{'messages_equilibre_ok.npy': 1.0,
+   'POS1.npy': 1.0, 'POS5.npy': 1.0, 'LRInv1.npy': 1.0, 'LRInv2.npy': 1.0, 'LRInvTotal.npy': 1.0}": 0.8653636393301699}
+
+{"REF": 0.8692509234307005,
+ "+POS5": 0.8700548052777922,
+ "+LRInv1": 0.8724492723039502,
+ "+POS3": 0.8722116959823845,
+ "+POS4": 0.8711704120255087,
+ "+POS1": 0.8687653120035286,
+ "+POS2": 0.8675988169513605,
+ "+alea3": 0.8656985625767726,
+ "+LRInv3": 0.8647434170326452,
+ "+LRInv2": 0.8642617651820746,
+ "+LRInvTotal": 0.8624805090051428,
+ "+alea1": 0.8620121468878121,
+ "+alea4": 0.8610701027580886,
+ "+alea5": 0.8610168326567631,
+ "+alea2": 0.8599283020451981}
+
+{"REF": 0.8692509234307005,
+ "+alea2": 0.8665204138939211,
+ "+alea5": 0.86130852463299,
+ "+alea4": 0.8568005480461945,
+ "+alea1": 0.8534425418006005,
+ "+LRInvTotal": 0.8575473023168143,
+ "+LRInv2": 0.8596847504613818,
+ "+LRInv3": 0.8601757638246583,
+ "+alea3": 0.8588178486059126,
+ "+POS2": 0.859115813844244,
+ "+POS1": 0.8574725077460833,
+ "+POS4": 0.8585295291679769,
+ "+POS3": 0.8586633535489103,
+ "+LRInv1": 0.8590139868539521,
+ "+POS5": 0.8599283020451981}
+
+{"POS5": 0.8626254624583733,
+ "+LRInv1": 0.866432697950305,
+ "+POS3": 0.8693883848763699,
+ "+POS4": 0.8653997076722707,
+ "+POS1": 0.8638226894488232,
+ "+POS2": 0.8624304329668716,
+ "+alea3": 0.8599480873689493,
+ "+LRInv3": 0.8614698327216581,
+ "+LRInv2": 0.8615434321183001,
+ "+LRInvTotal": 0.8608581349239628,
+ "+alea1": 0.8591254592599021,
+ "+alea4": 0.8582489911539829,
+ "+alea5": 0.857362143651852,
+ "+alea2": 0.8578517387458664,
+ "+REF": 0.8599283020451981}
+
+{"alea2": 0.8322573662435993,
+ "+alea5": 0.8415910624982994,
+ "+alea4": 0.8390159091657479,
+ "+alea1": 0.8443708421051388,
+ "+LRInvTotal": 0.8479211192160794,
+ "+LRInv2": 0.8501529359714375,
+ "+LRInv3": 0.8533765259009349,
+ "+alea3": 0.8509386783741537,
+ "+POS2": 0.8521751875742597,
+ "+POS1": 0.8535278560598002,
+ "+POS4": 0.8544960806233535,
+ "+POS3": 0.854768781833841,
+ "+LRInv1": 0.8556144286556566,
+ "+POS5": 0.8578517387458664,
+ "+REF": 0.8599283020451981}
+
+--------------------------------------------------------------------------------
 -------------- COMBINAISON NORMAL + AUTRE - RÉPARTITION EQUITABLE --------------
 --------------------------------------------------------------------------------
 {"{'messages_equilibre_ok.npy': 0.5, 'alea1.npy': 0.5}": 0.8622280100582425,
@@ -181,6 +323,24 @@
  "{'messages_equilibre_ok.npy': 0.5, 'POS3.npy': 0.5}": 0.869714575729776,
  "{'messages_equilibre_ok.npy': 0.5, 'POS4.npy': 0.5}": 0.8676128842610625,
  "{'messages_equilibre_ok.npy': 0.5, 'POS5.npy': 0.5}": 0.8703969519321774}
+
+--------------------------------------------------------------------------------
+--------------- COMBINAISON NORMAL + AUTRE - CONCATÉNATION EMBD ----------------
+--------------------------------------------------------------------------------
+{"{'messages_equilibre_ok.npy': 1.0, 'alea1.npy': 1.0}": 0.8665668197558084,
+ "{'messages_equilibre_ok.npy': 1.0, 'alea2.npy': 1.0}": 0.8665204138939211,
+ "{'messages_equilibre_ok.npy': 1.0, 'alea3.npy': 1.0}": 0.865357368040099,
+ "{'messages_equilibre_ok.npy': 1.0, 'alea4.npy': 1.0}": 0.8600617222773858,
+ "{'messages_equilibre_ok.npy': 1.0, 'alea5.npy': 1.0}": 0.863035359421682,
+ "{'messages_equilibre_ok.npy': 1.0, 'POS1.npy': 1.0}": 0.8646244439561857,
+ "{'messages_equilibre_ok.npy': 1.0, 'POS2.npy': 1.0}": 0.8661818816636163,
+ "{'messages_equilibre_ok.npy': 1.0, 'POS3.npy': 1.0}": 0.8677173510405456,
+ "{'messages_equilibre_ok.npy': 1.0, 'POS4.npy': 1.0}": 0.865559184932154,
+ "{'messages_equilibre_ok.npy': 1.0, 'POS5.npy': 1.0}": 0.8700548052777922,
+ "{'messages_equilibre_ok.npy': 1.0, 'LRInv1.npy': 1.0}": 0.8754953347278122,
+ "{'messages_equilibre_ok.npy': 1.0, 'LRInv2.npy': 1.0}": 0.8705370535276717,
+ "{'messages_equilibre_ok.npy': 1.0, 'LRInv3.npy': 1.0}": 0.8705844282429988,
+ "{'messages_equilibre_ok.npy': 1.0, 'LRInvTotal.npy': 1.0}": 0.8724696307894115}
 
 --------------------------------------------------------------------------------
 ----------------------- DÉGRADER ALÉATOIRE 1 VERS NORMAL -----------------------
@@ -213,7 +373,7 @@
  "{'messages_equilibre_ok.npy': 1.": 0.8692509234307005}
 
 --------------------------------------------------------------------------------
------------------ DÉGRADER INVERSION SYNTAGMIQUE 1 VERS NORMAL -----------------
+---------------- DÉGRADER INVERSION SYNTAGMATIQUE 1 VERS NORMAL ----------------
 --------------------------------------------------------------------------------
 {"{'LRInv1.npy': 1.0}": 0.8618716441425647,
  "{'messages_equilibre_ok.npy': 0.1, 'LRInv1.npy': 0.9}": 0.8657766368421489,
@@ -228,7 +388,7 @@
  "{'messages_equilibre_ok.npy': 1.": 0.8692509234307005}
 
 --------------------------------------------------------------------------------
------------------ DÉGRADER INVERSION SYNTAGMIQUE 2 VERS NORMAL -----------------
+---------------- DÉGRADER INVERSION SYNTAGMATIQUE 2 VERS NORMAL ----------------
 --------------------------------------------------------------------------------
 {"{'LRInv2.npy': 1.0}": 0.845405935963117,
  "{'messages_equilibre_ok.npy': 0.1, 'LRInv2.npy': 0.9}": 0.8504515528761887,
@@ -243,7 +403,7 @@
  "{'messages_equilibre_ok.npy': 1.": 0.8692509234307005}
 
 --------------------------------------------------------------------------------
------------------ DÉGRADER INVERSION SYNTAGMIQUE 3 VERS NORMAL -----------------
+---------------- DÉGRADER INVERSION SYNTAGMATIQUE 3 VERS NORMAL ----------------
 --------------------------------------------------------------------------------
 {"{'LRInv3.npy': 1.0}": 0.8461662207890495,
  "{'messages_equilibre_ok.npy': 0.1, 'LRInv3.npy': 0.9}": 0.8514056134957191,
@@ -258,7 +418,7 @@
  "{'messages_equilibre_ok.npy': 1.": 0.8692509234307005}
 
 --------------------------------------------------------------------------------
--------------- DÉGRADER INVERSION SYNTAGMIQUE COMPLET VERS NORMAL --------------
+------------- DÉGRADER INVERSION SYNTAGMATIQUE COMPLET VERS NORMAL -------------
 --------------------------------------------------------------------------------
 {"{'LRInvTotal.npy': 1.0}": 0.8423471257324868,
  "{'messages_equilibre_ok.npy': 0.1, 'LRInvTotal.npy': 0.9}": 0.8496933912212963,
